@@ -1,0 +1,33 @@
+
+Number of sentences: 10
+  1. I enjoy coding.
+  2. I like programming.
+  3. The weather is sunny today.
+  4. It is a bright and clear day outside.
+  5. Machine learning models learn patterns from data.
+  6. Neural networks are trained on large datasets.
+  7. I love eating pizza.
+  8. She is cooking pasta for dinner.
+  9. The stock market closed higher today.
+  10. Football is a popular sport around the world.
+
+Embeddings shape    : (10, 384)
+Embedding dimension : 384
+
+First 5 values of the first embedding:
+[-0.04501915 -0.03593623 -0.02661789  0.01343791  0.03013795]
+
+Semantically similar sentence pairs (threshold = 0.50):
+------------------------------------------------------------
+Sentence 1: I enjoy coding.
+Sentence 2: I like programming.
+Similarity: 0.8124
+------------------------------------------------------------
+Sentence 1: The weather is sunny today.
+Sentence 2: It is a bright and clear day outside.
+Similarity: 0.6684
+------------------------------------------------------------
+Sentence 1: Machine learning models learn patterns from data.
+Sentence 2: Neural networks are trained on large datasets.
+Similarity: 0.5215
+------------------------------------------------------------
